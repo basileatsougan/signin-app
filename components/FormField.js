@@ -31,6 +31,7 @@ const FormField = ({
         onChangeText={handleChangeText}
         secureTextEntry={placeholder === "Password" && !showPassword}
         // style={{ flexDirection: 'row', justifyContent: "space-between"}}
+        placeholderTextColor="#888"
       />
       {title === "Pwassword" && (
         <TouchableOpacity onPress={() => setShowPassword(!showPassword)}>
